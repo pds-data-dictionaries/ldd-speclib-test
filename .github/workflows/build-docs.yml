@@ -105,7 +105,7 @@ jobs:
           git config --local user.email "pdsen-ci@jpl.nasa.gov"
           git config --local user.name "PDSEN CI Bot"
           git status
-          git add -A ./*.pdf
+          git add -A docs/*.pdf
           git status
           git commit --allow-empty -m "Auto-gen PDF by PDSEN CI Bot"
           
